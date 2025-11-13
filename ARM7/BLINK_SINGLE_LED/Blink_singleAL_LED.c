@@ -12,6 +12,7 @@ int main(){
 		IOCLR0 = AL_LED; // Power on p0.0 LED pin
 		delay(1000);	 // delay of 1-second
 		IOSET0 = AL_LED; //power off p0.0 LED pin
-		delay(1000);     //delay of 2-second
+		delay(1000);     //delay of 1-second
 	}
+
 }
