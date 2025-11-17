@@ -33,6 +33,7 @@ void LCD_CMD(unsigned char cmd){
 }
 void LCD_DATA(unsigned char d){
 	IOCLR0=LCD_D;
+	IOSET0=d;
 	IOSET0=RS;
 	IOSET0=E;
 	delaymilisec(2);
@@ -41,4 +42,5 @@ void LCD_DATA(unsigned char d){
 void LCD_STRING(unsigned char* s){
 	while(*s)
 	LCD_DATA(*s++);
+
 }
