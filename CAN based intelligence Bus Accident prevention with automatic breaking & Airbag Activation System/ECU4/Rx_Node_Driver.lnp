@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "rx_main.o" --strict --scatter "Rx_Node_Driver.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Rx_Node_Driver.map" -o "Rx_Node_Driver.axf"

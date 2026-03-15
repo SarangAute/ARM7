@@ -1,0 +1,8 @@
+Dependencies for Project 'CAN', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\CAN_Main.c)(0x69A556B2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\KeilARM\ARM\INC" -I "C:\KeilARM\ARM\INC\Philips" -o "can_main.o" --omf_browse "can_main.crf" --depend "can_main.d")
+I (C:\KeilARM\ARM\INC\Philips\LPC21XX.H)(0x691F032F)
+I (CAN.H)(0x6994276C)
+I (SPEED.H)(0x699D71FC)
+I (LCD_DISPLAY.H)(0x699D6768)
+I (DELAY.H)(0x699D7F3D)

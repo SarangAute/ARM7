@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'ECU3_DECIION.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"ecu_main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "ecu_main.o" --strict --scatter "ECU3_DECIION.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ECU3_DECIION.map" -o "ECU3_DECIION.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ECU3_DECIION.axf'
+### ADS-LD Command File: 'ECU3_DECIION.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ECU3_DECIION.lnp', Handle=0x00000334
+### Writing '.lnp' file
+### ADS-LD Command file 'ECU3_DECIION.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
